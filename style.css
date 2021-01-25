@@ -92,8 +92,10 @@ ion-icon {
     border: 1px solid blue;
 }
 
-.search:focus {
+.search:focus-within {
     border: 1px solid blue;
+    box-shadow: 0px 0px 1px 0px rgba(0, 0, 255, 0.7);
+    width: 60rem;
 }
 
 .search input {
